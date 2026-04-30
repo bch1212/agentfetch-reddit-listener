@@ -7,9 +7,9 @@ govern Listener behavior, included here for transparency to Reddit reviewers.
 # Standard PRAW credentials (loaded from env, never committed)
 REDDIT_CLIENT_ID: str        # from reddit.com/prefs/apps script app
 REDDIT_CLIENT_SECRET: str    # from reddit.com/prefs/apps script app
-REDDIT_USERNAME: str         # the bot account
+REDDIT_USERNAME: str = "claude_helper_bot"   # the bot account
 REDDIT_PASSWORD: str         # 2FA must be off (PRAW limitation)
-REDDIT_USER_AGENT: str = "salesbot/1.0 by /u/<bot-username>"
+REDDIT_USER_AGENT: str = "salesbot/1.0 by /u/claude_helper_bot"
 
 # ----------------------------------------------------------------------------
 # Compliance + safety knobs (Reddit Responsible Builder Policy)
